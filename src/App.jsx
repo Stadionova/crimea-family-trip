@@ -22,6 +22,7 @@ window.addEventListener('scroll', () => {
 const App = () => {
   return (
     <div className={classes.app}>
+      <MainPage />
       <Route path='/main' component={MainPage} />
       <Route path='/trip' component={Trip} />
       <Route path='/equipment' component={Equipment} />
