@@ -33,7 +33,7 @@
 }
 
 .cities img:hover {
-    opacity: 0.7;
+    opacity: 0.4;
     transition-duration: 0.3s;
     cursor: pointer;
 }
