@@ -1,0 +1,98 @@
+.eachDay {
+    height: 400px;
+    margin-right: 25px;
+    text-decoration: none;
+    position: relative;
+    width: 100%;
+    border: 1px solid black;
+    background-color: burlywood;
+    color: #304663fc;
+    line-height: 1.7;
+}
+
+.eachDay a {
+    color: white;
+}
+
+.eachDay img {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    opacity: 1;
+}
+
+.addText {
+    display: none;
+    position: absolute;
+    color: white !important;
+    font-size: 20pt !important;
+    font-weight: 400;
+    width: 600px !important;
+    top: 160px;
+    left: 0;
+    padding: 160px 25px 0 25px !important;
+}
+
+.eachDay:hover .addText {
+    display: block;
+    z-index: 1;
+}
+
+.eachDay:hover .backImage {
+    z-index: 1;
+}
+
+.hoverLayer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-color: antiquewhite;
+    opacity: 0.3;
+}
+
+.eachDay:hover .hoverLayer {
+    background: rgba(31, 25, 112, 0.342);
+    opacity: 0.65;
+    transition-duration: 0.3s;
+    background-color: burlywood;
+}
+
+.eachDay:hover {
+    opacity: 0.9;
+    border-color: black;
+    transition-duration: 0.3s;
+    background-color: burlywood;
+}
+
+.backImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20pt;
+    font-weight: 900;
+    padding-left: 20px;
+    padding-top: 10px;
+    z-index: 1;
+    text-shadow: 0px 4px 3px rgb(0 0 0 / 40%), 0px 8px 13px rgb(0 0 0 / 10%), 0px 18px 23px rgb(0 0 0 / 10%);
+}
+
+.backImage a {
+    font-size: 25pt;
+    padding: 25px;
+}
+
+.city {
+    display: none;
+    position: absolute;
+    color: white !important;
+    font-size: 12pt !important;
+    font-weight: 400;
+    width: 600px !important;
+    top: 570px !important;
+    left: 0;
+    text-align: left;
+}

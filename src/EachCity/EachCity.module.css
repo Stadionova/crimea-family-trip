@@ -1,0 +1,95 @@
+.citiesWrapper {
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+
+.description .cities {
+    width: 100%;
+    height: 650px !important;
+    border: 1px solid black;
+    background-color: burlywood;
+    position: relative;
+}
+
+.description {
+    color: #304663fc;
+    line-height: 1.7;
+}
+
+.cities img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background: rgba(31, 25, 112, 0.342);
+    opacity: 0.65;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.cities img{
+    opacity: 0.8;
+}
+
+.cities img:hover {
+    opacity: 0.7;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.cityName {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20pt;
+    font-weight: 900;
+    padding-left: 30px;
+    padding-top: 30px;
+    z-index: 1;
+    color: white;
+    margin: 0;
+    text-shadow: 0px 4px 3px rgb(0 0 0 / 40%), 0px 8px 13px rgb(0 0 0 / 10%), 0px 18px 23px rgb(0 0 0 / 10%);
+}
+
+.city {
+    display: none;
+    position: absolute;
+    color: white !important;
+    font-size: 14pt !important;
+    font-weight: 600;
+    width: 600px !important;
+    top: 570px !important;
+    left: 0;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.detailedCityPlace {
+    display: none;
+    position: absolute;
+    font-weight: 400;
+    width: 499px !important;
+    top: 230px;
+    left: 30%;
+    z-index: 1;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 1.3;
+    font-size: 17pt !important;
+    background-color: antiquewhite;
+    color: black !important;
+    padding: 40px;
+    opacity: 0.8;
+    border-radius: 5%;
+}
+
+.cities:hover .city {
+    display: block;
+    z-index: 1;
+}
+
+.cities:hover .detailedCityPlace {
+    display: block;
+    z-index: 1;
+}
