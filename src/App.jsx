@@ -1,7 +1,7 @@
 import MainPage from './MainPage/MainPage';
 import classes from './App.module.css';
 import Trip from './Trip/Trip';
-import { Route } from "react-router-dom";
+import { Redirect, Route } from "react-router-dom";
 import Equipment from './Equipment/Equipment';
 import EachDay from './EachDay/EachDay';
 import React from "react";
@@ -22,7 +22,7 @@ window.addEventListener('scroll', () => {
 const App = () => {
   return (
     <div className={classes.app}>
-      {/* <MainPage /> */}
+      <Redirect from="/" to="/main" />
       <Route path='/main' component={MainPage} />
       <Route path='/trip' component={Trip} />
       <Route path='/equipment' component={Equipment} />
