@@ -7,7 +7,7 @@ import EachDay from './EachDay/EachDay';
 import React from "react";
 import DayDescription from './DayDescription/DayDescription';
 import ByCities from './ByCities/ByCities';
-import City from './City/City';
+import CityContainer from './City/CityContainer';
 
 window.addEventListener('scroll', () => {
   if (window.scrollY > 0) {
@@ -23,13 +23,16 @@ const App = () => {
   return (
     <div className={classes.app}>
       <Redirect from="/" to="/main" />
+      {/* Route компонента следит за адресной строкой браузера
+      и как только она увидит, что её path совпадает с адрес строкой,
+      она автоматич запуск рендер и отрисовыв то, что должна */}
       <Route path='/main' component={MainPage} />
       <Route path='/trip' component={Trip} />
       <Route path='/equipment' component={Equipment} />
       <Route path='/day' component={EachDay} />
       <Route path='/dayDesc' component={DayDescription} />
       <Route path='/cities' component={ByCities} />
-      <Route path='/city' component={City} />
+      <Route path='/city' component={CityContainer} />
     </div>
   );
 }
