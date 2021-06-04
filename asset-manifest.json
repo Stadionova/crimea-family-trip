@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/crimea-family-trip/static/css/main.20842da5.chunk.css",
-    "main.js": "/crimea-family-trip/static/js/main.8f8263d3.chunk.js",
-    "main.js.map": "/crimea-family-trip/static/js/main.8f8263d3.chunk.js.map",
+    "main.js": "/crimea-family-trip/static/js/main.c668babe.chunk.js",
+    "main.js.map": "/crimea-family-trip/static/js/main.c668babe.chunk.js.map",
     "runtime-main.js": "/crimea-family-trip/static/js/runtime-main.dc055638.js",
     "runtime-main.js.map": "/crimea-family-trip/static/js/runtime-main.dc055638.js.map",
     "static/css/2.0540911f.chunk.css": "/crimea-family-trip/static/css/2.0540911f.chunk.css",
@@ -131,6 +131,6 @@
     "static/css/2.0540911f.chunk.css",
     "static/js/2.b05a066f.chunk.js",
     "static/css/main.20842da5.chunk.css",
-    "static/js/main.8f8263d3.chunk.js"
+    "static/js/main.c668babe.chunk.js"
   ]
 }
