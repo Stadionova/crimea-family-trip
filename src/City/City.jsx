@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './City.module.css';
 import Navigation from '../Navigation/Navigation';
-import EachCity from '../EachCity/EachCity';
+import EachCityContainer from '../EachCity/EachCityContainer';
 
 function City(props) {
     const bigPhotos = props && props.smallImages && props.smallImages[props.data.cityNum];
@@ -14,21 +14,21 @@ function City(props) {
             <p className={classes.summaryData}>
                 {props.citiesSummaryData[props.data.cityNum]}
             </p>
-            <EachCity
+            <EachCityContainer
                 city={'БАХЧИКЭМП'}
                 img={bigPhotos && bigPhotos[8]}
                 cityNum={1}
                 hideText={props.citiesPlaceInDetail[1][0]}
                 hideTextClass={'detailedCityPlace'}
             />
-            <EachCity
+            <EachCityContainer
                 city={'ПЕЩЕРЫ_1'}
                 img={bigPhotos && bigPhotos[5]}
                 cityNum={2}
                 hideText={props.citiesPlaceInDetail[1][1]}
                 hideTextClass={'detailedCityPlace'}
             />
-            <EachCity
+            <EachCityContainer
                 city={'ПЕЩЕРЫ_2'}
                 img={bigPhotos && bigPhotos[0]}
                 cityNum={3}
