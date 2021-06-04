@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './EachCity.module.css';
 
-function EachCity(props) {
+const EachCity = (props) => {
     return (
         <div className={classes.description}>
             <div className={classes.citiesWrapper}>

@@ -3,7 +3,7 @@ import classes from './DayDescription.module.css';
 import tourists from './icon.png';
 import SwiperSlider from '../Swiper/Swiper';
 
-function DayDescription(props) {
+const DayDescription = (props) => {
     return (
         <div className={classes.description}>
             <div className={classes.eachDay}>

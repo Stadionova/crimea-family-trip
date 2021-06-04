@@ -3,7 +3,7 @@ import classes from './City.module.css';
 import Navigation from '../Navigation/Navigation';
 import EachCityContainer from '../EachCity/EachCityContainer';
 
-function City(props) {
+const City = (props) => {
     const bigPhotos = props && props.smallImages && props.smallImages[props.data.cityNum];
     return (
         <div className={classes.description}>

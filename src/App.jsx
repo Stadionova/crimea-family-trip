@@ -3,7 +3,7 @@ import classes from './App.module.css';
 import Trip from './Trip/Trip';
 import { Redirect, Route } from "react-router-dom";
 import Equipment from './Equipment/Equipment';
-import EachDay from './EachDay/EachDay';
+import EachDayContainer from './EachDay/EachDayContainer';
 import React from "react";
 import DayDescriptionContainer from './DayDescription/DayDescriptionContainer';
 import ByCities from './ByCities/ByCities';
@@ -29,7 +29,7 @@ const App = () => {
       <Route path='/main' component={MainPage} />
       <Route path='/trip' component={Trip} />
       <Route path='/equipment' component={Equipment} />
-      <Route path='/day' component={EachDay} />
+      <Route path='/day' component={EachDayContainer} />
       <Route path='/dayDesc' component={DayDescriptionContainer} />
       <Route path='/cities' component={ByCities} />
       <Route path='/city' component={CityContainer} />

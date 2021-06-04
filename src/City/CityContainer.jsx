@@ -40,7 +40,7 @@ const smallImages = {
     '3': [city3_1, city3_2, city3_3, city3_4, city3_5, city3_6, city3_7, city3_8, city3_9]
 }
 
-function CityContainer(props) {
+const CityContainer = (props) => {
     const data = props && props.location;
     return (
         <div>

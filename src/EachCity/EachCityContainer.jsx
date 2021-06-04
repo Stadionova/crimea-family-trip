@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import EachCity from './EachCity';
 
-function EachCityContainer(props) {
+const EachCityContainer = (props) => {
     const currentClass = props.hideTextClass;
     return (
         <div>
