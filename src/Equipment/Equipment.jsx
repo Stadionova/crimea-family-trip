@@ -7,7 +7,7 @@ const Equipment = () => {
         <div className={classes.equipment}>
             <Navigation changeColor='black' />
             <div className={classes.text}>
-                Наше снаряжение.
+                Здесь скоро появится информация о нашем снаряжении.
             </div>
         </div>
     )
