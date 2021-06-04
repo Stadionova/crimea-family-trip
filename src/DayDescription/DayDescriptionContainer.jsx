@@ -252,7 +252,7 @@ class DayDescriptionContainer extends React.Component {
                 </NavLink>
                 <NavLink
                     to={{
-                        pathname: `/dayDesc/${+data + 1}`,
+                        pathname: `/dayDesc/${+data.day + 1}`,
                         desc: data.desc,
                         day: +data.day + 1,
                         addHideText: data.addHideText
