@@ -4,6 +4,7 @@ import Navigation from '../Navigation/Navigation';
 import EachCity from '../EachCity/EachCity';
 
 function City(props) {
+    const bigPhotos = props && props.smallImages && props.smallImages[props.data.cityNum];
     return (
         <div className={classes.description}>
             <Navigation changeColor='black' />
@@ -15,21 +16,21 @@ function City(props) {
             </p>
             <EachCity
                 city={'БАХЧИКЭМП'}
-                img={props.smallImages[props.data.cityNum][8]}
+                img={bigPhotos && bigPhotos[8]}
                 cityNum={1}
                 hideText={props.citiesPlaceInDetail[1][0]}
                 hideTextClass={'detailedCityPlace'}
             />
             <EachCity
                 city={'ПЕЩЕРЫ_1'}
-                img={props.smallImages[props.data.cityNum][5]}
+                img={bigPhotos && bigPhotos[5]}
                 cityNum={2}
                 hideText={props.citiesPlaceInDetail[1][1]}
                 hideTextClass={'detailedCityPlace'}
             />
             <EachCity
                 city={'ПЕЩЕРЫ_2'}
-                img={props.smallImages[props.data.cityNum][0]}
+                img={bigPhotos && bigPhotos[0]}
                 cityNum={3}
                 hideText={props.citiesPlaceInDetail[1][2]}
                 hideTextClass={'detailedCityPlace'}
