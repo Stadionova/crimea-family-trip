@@ -4,7 +4,6 @@ import EachCity from './EachCity';
 
 function EachCityContainer(props) {
     const currentClass = props.hideTextClass;
-    console.log('props_1 ', props);
     return (
         <div>
             <NavLink
