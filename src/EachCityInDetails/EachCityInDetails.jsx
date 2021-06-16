@@ -10,7 +10,6 @@ const EachCityInDetails = (props) => {
                 <div className={classes.cities}>
                     <p className={classes.cityName}>{props.city}</p>
                     <img src={props.img} alt=''></img>
-                    <p>Это город номер {props.cityNum}</p>
                 </div>
             </div>
         </div>
