@@ -10,7 +10,8 @@ const EachCityInDetailsContainer = (props) => {
                 to={{
                     pathname: '/aboutcity/' + props.cityNum,
                     bigPhoto: props.img,
-                    cityNum: props.cityNum
+                    cityNum: props.cityNum,
+                    city: +window.location.href.slice(-1)
                 }}>
                 <EachCityInDetails
                     img={props.img}
