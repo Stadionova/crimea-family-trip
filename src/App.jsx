@@ -23,7 +23,6 @@ window.addEventListener('scroll', () => {
 const App = () => {
   return (
     <div className={classes.app}>
-      <Redirect from="/" to="/main" />
       {/* Route компонента следит за адресной строкой браузера
       и как только она увидит, что её path совпадает с адрес строкой,
       она автоматич запуск рендер и отрисовыв то, что должна */}

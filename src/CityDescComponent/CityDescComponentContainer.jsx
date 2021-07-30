@@ -83,13 +83,21 @@ const miniPhotos = {
 }
 
 const CityDescComponentContainer = (props) => {
+    let cityNum;
+    let city;
+    if (props.location.cityNum) {
+        cityNum = props.location.cityNum;
+        city = props.location.city;
+        localStorage.setItem('city', props.location.city);
+    } else {
+        cityNum = props && props.location && props.location.pathname.slice(-1);
+        city = localStorage.getItem('city');
+    }
     return (
         <div>
             <CityDescComponent
-                backImages={miniPhotos
-                    && miniPhotos[props.location.city]
-                    && miniPhotos[props.location.city][props.location.cityNum]}
-                placeNumber={props.location.cityNum}
+                backImages={miniPhotos && miniPhotos[city] && miniPhotos[city][cityNum]}
+                placeNumber={cityNum}
             />
         </div>
     );

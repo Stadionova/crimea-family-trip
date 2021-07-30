@@ -220,9 +220,14 @@ class DayDescriptionContainer extends React.Component {
     }
     render() {
         const data = this.props && this.props.location;
-        const dataImages = miniPhotos[data.day];
-        const dataImagesSlider = bigPhotosSlider[data.day];
-        const day = data.day;
+        let day;
+        if (data.day) {
+            day = data.day;
+        } else {
+            day = data && data.pathname && data.pathname.slice(-1);
+        }
+        const dataImages = miniPhotos[day];
+        const dataImagesSlider = bigPhotosSlider[day];
         return (
             <div className={classes.description}>
                 <Navigation changeColor='black' />
@@ -237,13 +242,13 @@ class DayDescriptionContainer extends React.Component {
                 />
                 <NavLink
                     to={{
-                        pathname: `/dayDesc/${+data.day - 1}`,
+                        pathname: `/dayDesc/${+day - 1}`,
                         desc: data.desc,
-                        day: +data.day - 1,
+                        day: +day - 1,
                         addHideText: data.addHideText
                     }}>
                     {
-                        this.props.location.day >= 2
+                        +day >= 2
                             ? <button
                                 className={classes.buttonPrev}
                                 onClick={() => this.onclick()}>Предыдущий день</button>
@@ -252,13 +257,13 @@ class DayDescriptionContainer extends React.Component {
                 </NavLink>
                 <NavLink
                     to={{
-                        pathname: `/dayDesc/${+data.day + 1}`,
+                        pathname: `/dayDesc/${+day + 1}`,
                         desc: data.desc,
-                        day: +data.day + 1,
+                        day: +day + 1,
                         addHideText: data.addHideText
                     }}>
                     {
-                        this.props.location.day <= 10
+                        +day <= 10
                             ? <button
                                 className={classes.buttonNext}
                                 onClick={() => this.onclick()}>Следующий день</button>
