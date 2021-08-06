@@ -4,6 +4,7 @@ import tourists from './icon.png';
 import SwiperSlider from '../Swiper/Swiper';
 
 const DayDescription = (props) => {
+    const images = props.dataImages;
     return (
         <div className={classes.description}>
             <div className={classes.eachDay}>
@@ -36,14 +37,14 @@ const DayDescription = (props) => {
                 <div className={classes.photoGallery}>
                     <ul>
                         <div>
-                            <li><img src={props.dataImages && props.dataImages[0]} alt=''></img></li>
-                            <li><img src={props.dataImages && props.dataImages[1]} alt=''></img></li>
-                            <li><img src={props.dataImages && props.dataImages[2]} alt=''></img></li>
+                            <li><a href={images[0]} target="_blank" rel="noreferrer"><img src={images[0]} alt=''></img></a></li>
+                            <li><a href={images[1]} target="_blank" rel="noreferrer"><img src={images[1]} alt=''></img></a></li>
+                            <li><a href={images[2]} target="_blank" rel="noreferrer"><img src={images[2]} alt=''></img></a></li>
                         </div>
                         <div>
-                            <li><img src={props.dataImages && props.dataImages[3]} alt=''></img></li>
-                            <li><img src={props.dataImages && props.dataImages[4]} alt=''></img></li>
-                            <li><img src={props.dataImages && props.dataImages[5]} alt=''></img></li>
+                            <li><a href={images[3]} target="_blank" rel="noreferrer"><img src={images[3]} alt=''></img></a></li>
+                            <li><a href={images[4]} target="_blank" rel="noreferrer"><img src={images[4]} alt=''></img></a></li>
+                            <li><a href={images[5]} target="_blank" rel="noreferrer"><img src={images[5]} alt=''></img></a></li>
                         </div>
                     </ul>
                 </div>
