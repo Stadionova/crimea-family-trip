@@ -7,7 +7,7 @@ const CityDescComponent = (props) => {
     return (
         <div className={classes.description}>
             <Navigation changeColor='black' />
-            <div className={classes.fullDesc}>{props.textDesc}</div>
+            <div className={classes.fullDescFirst}>{props.textDesc[0]}</div>
             <div className={classes.photoGallery}>
                 {props.lastCity !== true
                     ? <ul>
@@ -16,6 +16,7 @@ const CityDescComponent = (props) => {
                             <li><a href={images[1]} target="_blank" rel="noreferrer"><img src={images[1]} alt=''></img></a></li>
                             <li><a href={images[2]} target="_blank" rel="noreferrer"><img src={images[2]} alt=''></img></a></li>
                         </div>
+                        <div className={classes.fullDescSecond}>{props.textDesc[1]}</div>
                         <div>
                             <li><a href={images[3]} target="_blank" rel="noreferrer"><img src={images[3]} alt=''></img></a></li>
                             <li><a href={images[4]} target="_blank" rel="noreferrer"><img src={images[4]} alt=''></img></a></li>
@@ -33,6 +34,7 @@ const CityDescComponent = (props) => {
                             <li><a href={images[4]} target="_blank" rel="noreferrer"><img src={images[4]} alt=''></img></a></li>
                             <li><a href={images[5]} target="_blank" rel="noreferrer"><img src={images[5]} alt=''></img></a></li>
                         </div>
+                        <div className={classes.fullDescSecond}>{props.textDesc[1]}</div>
                         <div>
                             <li><a href={images[6]} target="_blank" rel="noreferrer"><img src={images[6]} alt=''></img></a></li>
                             <li><a href={images[7]} target="_blank" rel="noreferrer"><img src={images[7]} alt=''></img></a></li>

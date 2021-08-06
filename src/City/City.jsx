@@ -32,7 +32,7 @@ const City = (props) => {
             {cityNum === 3
                 ? <EachCityInDetailsContainer
                     city={cityPlacesNames[cityNum][0]}
-                    img={bigPhotos[8]}
+                    img={bigPhotos[0]}
                     cityNum={1}
                     hideText={citiesPlaceInDetail[cityNum][0]}
                     hideTextClass={'detailedCityPlace'}
@@ -40,30 +40,23 @@ const City = (props) => {
                 : <>
                     <EachCityInDetailsContainer
                         city={cityPlacesNames[cityNum][0]}
-                        img={bigPhotos[8]}
+                        img={bigPhotos[0]}
                         cityNum={1}
                         hideText={citiesPlaceInDetail[cityNum][0]}
                         hideTextClass={'detailedCityPlace'}
                     />
                     <EachCityInDetailsContainer
                         city={cityPlacesNames[cityNum][1]}
-                        img={bigPhotos[5]}
+                        img={bigPhotos[1]}
                         cityNum={2}
                         hideText={citiesPlaceInDetail[cityNum][1]}
                         hideTextClass={'detailedCityPlace'}
                     />
                     <EachCityInDetailsContainer
                         city={cityPlacesNames[cityNum][2]}
-                        img={bigPhotos[0]}
+                        img={bigPhotos[2]}
                         cityNum={3}
                         hideText={citiesPlaceInDetail[cityNum][2]}
-                        hideTextClass={'detailedCityPlace'}
-                    />
-                    <EachCityInDetailsContainer
-                        city={cityPlacesNames[cityNum][3]}
-                        img={bigPhotos[0]}
-                        cityNum={3}
-                        hideText={citiesPlaceInDetail[cityNum][3]}
                         hideTextClass={'detailedCityPlace'}
                     />
                 </>

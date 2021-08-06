@@ -1,14 +1,27 @@
-.fullDesc {
+.fullDescFirst {
     text-align: justify;
     font-size: 15pt;
     font-weight: 400;
     padding: 25px;
     padding-top: 90px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fullDescSecond {
+    text-align: justify;
+    font-size: 15pt;
+    font-weight: 400;
+    /* padding: 25px; */
+    padding-bottom: 25px;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 10px;
 }
 
 .photoGallery {
     margin: 0 auto;
-    width: 96.3%;
+    width: 84.3%;
 }
 
 .footer {

@@ -2,9 +2,11 @@ import React from 'react';
 import EachCityContainer from '../EachCity/EachCityContainer';
 import Navigation from '../Navigation/Navigation';
 import classes from './ByCities.module.css';
+
 import city1 from '../city1.JPG';
 import city2 from '../city2.JPG';
 import city3 from '../city3.JPG';
+
 import dataCityDesc from './dataCityDesc';
 import hideCityText from './hideCityText';
 
