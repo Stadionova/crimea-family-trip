@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/crimea-family-trip/static/css/main.e54905ba.chunk.css",
-    "main.js": "/crimea-family-trip/static/js/main.5dbb9b3d.chunk.js",
-    "main.js.map": "/crimea-family-trip/static/js/main.5dbb9b3d.chunk.js.map",
+    "main.css": "/crimea-family-trip/static/css/main.8134f0ba.chunk.css",
+    "main.js": "/crimea-family-trip/static/js/main.be856b7f.chunk.js",
+    "main.js.map": "/crimea-family-trip/static/js/main.be856b7f.chunk.js.map",
     "runtime-main.js": "/crimea-family-trip/static/js/runtime-main.da2564a6.js",
     "runtime-main.js.map": "/crimea-family-trip/static/js/runtime-main.da2564a6.js.map",
     "static/css/2.0540911f.chunk.css": "/crimea-family-trip/static/css/2.0540911f.chunk.css",
-    "static/js/2.f772bced.chunk.js": "/crimea-family-trip/static/js/2.f772bced.chunk.js",
-    "static/js/2.f772bced.chunk.js.map": "/crimea-family-trip/static/js/2.f772bced.chunk.js.map",
+    "static/js/2.fb93df2f.chunk.js": "/crimea-family-trip/static/js/2.fb93df2f.chunk.js",
+    "static/js/2.fb93df2f.chunk.js.map": "/crimea-family-trip/static/js/2.fb93df2f.chunk.js.map",
     "static/js/3.e61bdef3.chunk.js": "/crimea-family-trip/static/js/3.e61bdef3.chunk.js",
     "static/js/3.e61bdef3.chunk.js.map": "/crimea-family-trip/static/js/3.e61bdef3.chunk.js.map",
     "index.html": "/crimea-family-trip/index.html",
     "static/css/2.0540911f.chunk.css.map": "/crimea-family-trip/static/css/2.0540911f.chunk.css.map",
-    "static/css/main.e54905ba.chunk.css.map": "/crimea-family-trip/static/css/main.e54905ba.chunk.css.map",
-    "static/js/2.f772bced.chunk.js.LICENSE.txt": "/crimea-family-trip/static/js/2.f772bced.chunk.js.LICENSE.txt",
+    "static/css/main.8134f0ba.chunk.css.map": "/crimea-family-trip/static/css/main.8134f0ba.chunk.css.map",
+    "static/js/2.fb93df2f.chunk.js.LICENSE.txt": "/crimea-family-trip/static/js/2.fb93df2f.chunk.js.LICENSE.txt",
     "static/media/city1.7654140f.JPG": "/crimea-family-trip/static/media/city1.7654140f.JPG",
     "static/media/city1_1.79bb81e0.JPG": "/crimea-family-trip/static/media/city1_1.79bb81e0.JPG",
     "static/media/city1_2.6cbe0c58.JPG": "/crimea-family-trip/static/media/city1_2.6cbe0c58.JPG",
@@ -218,13 +218,14 @@
     "static/media/img9.9ff9a6dd.JPG": "/crimea-family-trip/static/media/img9.9ff9a6dd.JPG",
     "static/media/inst.5ac6a2af.png": "/crimea-family-trip/static/media/inst.5ac6a2af.png",
     "static/media/MainPage.module.css": "/crimea-family-trip/static/media/mainPhoto.dd6d4aa2.JPG",
+    "static/media/sample.101b2bd7.mp4": "/crimea-family-trip/static/media/sample.101b2bd7.mp4",
     "static/media/vk.d113d735.png": "/crimea-family-trip/static/media/vk.d113d735.png"
   },
   "entrypoints": [
     "static/js/runtime-main.da2564a6.js",
     "static/css/2.0540911f.chunk.css",
-    "static/js/2.f772bced.chunk.js",
-    "static/css/main.e54905ba.chunk.css",
-    "static/js/main.5dbb9b3d.chunk.js"
+    "static/js/2.fb93df2f.chunk.js",
+    "static/css/main.8134f0ba.chunk.css",
+    "static/js/main.be856b7f.chunk.js"
   ]
 }
