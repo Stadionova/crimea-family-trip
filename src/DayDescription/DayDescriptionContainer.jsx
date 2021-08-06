@@ -214,6 +214,20 @@ const bigPhotosSlider = {
     '11': [day11BigImage1, day11BigImage2, day11BigImage3, day11BigImage4, day11BigImage5, day11BigImage6]
 }
 
+const videosDays = {
+    1: "https://www.youtube.com/embed/yvlP1xf06C0",
+    2: "https://www.youtube.com/embed/yvlP1xf06C0",
+    3: "https://www.youtube.com/embed/yvlP1xf06C0",
+    4: "https://www.youtube.com/embed/yvlP1xf06C0",
+    5: "https://www.youtube.com/embed/yvlP1xf06C0",
+    6: "https://www.youtube.com/embed/yvlP1xf06C0",
+    7: "https://www.youtube.com/embed/yvlP1xf06C0",
+    8: "https://www.youtube.com/embed/yvlP1xf06C0",
+    9: "https://www.youtube.com/embed/yvlP1xf06C0",
+    10: "https://www.youtube.com/embed/yvlP1xf06C0",
+    11: "https://www.youtube.com/embed/yvlP1xf06C0"
+}
+
 class DayDescriptionContainer extends React.Component {
     onclick() {
         this.render(this.props);
@@ -228,6 +242,7 @@ class DayDescriptionContainer extends React.Component {
         }
         const dataImages = miniPhotos[day];
         const dataImagesSlider = bigPhotosSlider[day];
+        const video = videosDays[day];
         return (
             <div className={classes.description}>
                 <Navigation changeColor='black' />
@@ -239,6 +254,7 @@ class DayDescriptionContainer extends React.Component {
                     dayDescriptions={dayDescriptions}
                     dataDaysDesc={dataDaysDesc}
                     day={day}
+                    video={video}
                 />
                 <NavLink
                     to={{

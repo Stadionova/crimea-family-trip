@@ -229,7 +229,10 @@ h5 {
     background: goldenrod;
 }
 
-.videoTag {
-    width: 600px;
-    margin-top: 50px;
+iframe {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 1060px;
+    height: 600px;
+    display: block;
 }
