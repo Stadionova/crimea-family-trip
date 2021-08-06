@@ -30,14 +30,18 @@ const DayDescription = (props) => {
                     <p className={classes.text3}>
                         {props.dataDaysDesc[props.day] && props.dataDaysDesc[props.day][2]}
                     </p>
-                    <iframe
-                        src={props.video}
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen
-                    >
-                    </iframe>
+                    {
+                        props.video === false
+                            ? <></>
+                            : <iframe
+                                src={props.video}
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                            >
+                            </iframe>
+                    }
                     <p className={classes.text4}>
                         {props.dataDaysDesc[props.day] && props.dataDaysDesc[props.day][3]}
                     </p>

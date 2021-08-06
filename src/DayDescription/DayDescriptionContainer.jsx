@@ -215,17 +215,17 @@ const bigPhotosSlider = {
 }
 
 const videosDays = {
-    1: "https://www.youtube.com/embed/yvlP1xf06C0",
+    1: "https://www.youtube.com/embed/RrqNRza8FuY",
     2: "https://www.youtube.com/embed/yvlP1xf06C0",
-    3: "https://www.youtube.com/embed/yvlP1xf06C0",
-    4: "https://www.youtube.com/embed/yvlP1xf06C0",
-    5: "https://www.youtube.com/embed/yvlP1xf06C0",
-    6: "https://www.youtube.com/embed/yvlP1xf06C0",
-    7: "https://www.youtube.com/embed/yvlP1xf06C0",
-    8: "https://www.youtube.com/embed/yvlP1xf06C0",
-    9: "https://www.youtube.com/embed/yvlP1xf06C0",
-    10: "https://www.youtube.com/embed/yvlP1xf06C0",
-    11: "https://www.youtube.com/embed/yvlP1xf06C0"
+    3: "https://www.youtube.com/embed/9QevN_kWHcA",
+    4: "https://www.youtube.com/embed/ryq5WibQqww",
+    5: "https://www.youtube.com/embed/fmG3jCwtl90",
+    6: "https://www.youtube.com/embed/taspt0HyjKQ",
+    7: "https://www.youtube.com/embed/ZVcXvfw0qjU",
+    8: false,
+    9: "https://www.youtube.com/embed/hEGybREEIbc",
+    10: false,
+    11: "https://www.youtube.com/embed/sjhuCrT3HoM"
 }
 
 class DayDescriptionContainer extends React.Component {

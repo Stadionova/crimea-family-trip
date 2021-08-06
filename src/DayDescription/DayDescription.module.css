@@ -34,7 +34,6 @@
 
 .fullDescPar {
     padding: 0 25px 0 25px;
-    margin-top: 40px;
     margin-bottom: 40px;
 }
 
@@ -163,12 +162,16 @@ h5 {
 
 .fullDesc p {
     margin: 0 auto;
-    width: 95%;
-    padding-top: 10px;
 }
 
 .text3 {
     padding-bottom: 20px;
+    border-bottom: solid 5px goldenrod;
+    border-bottom-style: double;
+}
+
+.text4 {
+    padding-top: 10px;
 }
 
 .text1,
@@ -231,8 +234,9 @@ h5 {
 
 iframe {
     margin: 0 auto;
-    margin-top: 30px;
-    width: 1060px;
-    height: 600px;
+    margin-top: 20px;
+    width: 1090px;
+    height: 620px;
     display: block;
+    margin-bottom: 30px;
 }
