@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 const EachCityInDetailsContainer = (props) => {
     const currentClass = props.hideTextClass;
     return (
-        <div>
+        <>
             <NavLink
                 to={{
                     pathname: '/aboutcity/' + props.cityNum,
@@ -21,7 +21,7 @@ const EachCityInDetailsContainer = (props) => {
                     cityNum={props.cityNum}
                 />
             </NavLink>
-        </div>
+        </>
     );
 }
 

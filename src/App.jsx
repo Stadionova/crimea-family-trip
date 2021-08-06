@@ -1,7 +1,7 @@
 import MainPage from './MainPage/MainPage';
 import classes from './App.module.css';
 import Trip from './Trip/Trip';
-import { Redirect, Route } from "react-router-dom";
+import { Route } from "react-router-dom";
 import Equipment from './Equipment/Equipment';
 import EachDayContainer from './EachDay/EachDayContainer';
 import CityDescComponentContainer from './CityDescComponent/CityDescComponentContainer';

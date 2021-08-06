@@ -39,6 +39,7 @@ class ByCities extends React.Component {
                         hideTextClass={'city'}
                     />
                 </div>
+                <p className={classes.footer}>© 2021 Мама и Дети, Крым</p>
             </div>
         );
     }

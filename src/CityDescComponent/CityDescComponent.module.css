@@ -1,12 +1,18 @@
 .fullDesc {
-    text-align: left;
-    font-size: 25pt;
+    text-align: justify;
+    font-size: 15pt;
     font-weight: 400;
-    padding-left: 25px;
-    padding-top: 100px;
+    padding: 25px;
+    padding-top: 90px;
 }
 
 .photoGallery {
     margin: 0 auto;
     width: 96.3%;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 300px;
+    padding-bottom: 20px;
 }

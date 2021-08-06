@@ -2,6 +2,7 @@ import React from 'react';
 import citiesSummaryData from '../citiesSummaryData';
 import citiesPlaceInDetail from '../citiesPlaceInDetail';
 import City from './City';
+import classes from './City.module.css';
 
 import city1_1 from './city1/city1_1.JPG';
 import city1_2 from './city1/city1_2.JPG';
@@ -42,14 +43,15 @@ const smallImages = {
 const CityContainer = (props) => {
     const data = props && props.location;
     return (
-        <div>
+        <>
             <City
                 data={data}
                 smallImages={smallImages}
                 citiesSummaryData={citiesSummaryData}
                 citiesPlaceInDetail={citiesPlaceInDetail}
             />
-        </div>
+            <p className={classes.footer}>© 2021 Мама и Дети, Крым</p>
+        </>
     );
 }
 

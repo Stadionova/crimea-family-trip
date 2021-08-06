@@ -5,7 +5,7 @@ import EachCity from './EachCity';
 const EachCityContainer = (props) => {
     const currentClass = props.hideTextClass;
     return (
-        <div>
+        <>
             <NavLink
                 to={{
                     pathname: '/city/' + props.cityNum,
@@ -20,7 +20,7 @@ const EachCityContainer = (props) => {
                     hideText={props.hideText}
                 />
             </NavLink>
-        </div>
+        </>
     );
 }
 

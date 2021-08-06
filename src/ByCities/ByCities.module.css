@@ -3,7 +3,7 @@
     width: 1300px;
     display: flex;
     text-align: center;
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 .description .cities {
@@ -64,4 +64,10 @@
 .cities:hover .city {
     display: block;
     z-index: 1;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 300px;
+    padding-top: 20px;
 }
