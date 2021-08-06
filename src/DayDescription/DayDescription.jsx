@@ -2,6 +2,7 @@ import React from 'react';
 import classes from './DayDescription.module.css';
 import tourists from './icon.png';
 import SwiperSlider from '../Swiper/Swiper';
+import sample from '../sample.mp4';
 
 const DayDescription = (props) => {
     const images = props.dataImages;
@@ -25,6 +26,9 @@ const DayDescription = (props) => {
                 </p>
             </div>
             <SwiperSlider sliderPhotos={props.dataImagesSlider} />
+            <video className={classes.videoTag} autoPlay loop>
+                <source src={sample} type='video/mp4' />
+            </video>
             <div className={classes.fullDesc}>
                 <div className={classes.fullDescPar}>
                     <p className={classes.text3}>

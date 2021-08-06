@@ -228,3 +228,8 @@ h5 {
 .buttonNext:before {
     background: goldenrod;
 }
+
+.videoTag {
+    width: 600px;
+    margin-top: 50px;
+}
