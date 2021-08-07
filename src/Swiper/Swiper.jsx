@@ -22,9 +22,6 @@ const SwiperSlider = (props) => {
                     "delay": 2500,
                     "disableOnInteraction": false
                 }}
-                pagination={{
-                    "clickable": true
-                }}
                 navigation={true}
                 slidesPerView={1}
                 loop={true}
