@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import classes from './Navigation.module.css';
 import inst from './inst.png';
 import vk from './vk.png';
+import youtube from './youtube.png';
 
 const Navigation = (props) => {
     return (
@@ -27,6 +28,13 @@ const Navigation = (props) => {
                         className={classes.vk}
                         alt="Vkontakte"
                         src={vk}>
+                    </img>
+                </a>
+                <a href="https://www.youtube.com/channel/UCmEcqozBEKyK6389lOA0kdg">
+                    <img
+                        className={classes.youtube}
+                        alt="youtube"
+                        src={youtube}>
                     </img>
                 </a>
             </div>

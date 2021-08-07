@@ -51,6 +51,13 @@
     padding-top: 20px;
 }
 
+.youtube {
+    height: 35px;
+    object-fit: cover;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
 .contacts {
     position: absolute;
     right: 25px;

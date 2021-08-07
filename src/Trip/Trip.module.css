@@ -18,9 +18,8 @@
 
 .trip p {
     color: black;
-    font-size: 20pt;
-    width: 70%;
-    text-align: left;
+    font-size: 16pt;
+    text-align: justify;
     padding: 65px 25px 0 25px;
 }
 
