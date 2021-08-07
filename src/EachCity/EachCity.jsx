@@ -7,7 +7,9 @@ const EachCity = (props) => {
             <div className={classes.citiesWrapper}>
                 <div className={classes.cities}>
                     <p className={classes.cityName}>{props.city}</p>
-                    <img src={props.img} alt=''></img>
+                    <a href={props.img} target="_blank" rel="noreferrer">
+                        <img src={props.img} alt=''></img>
+                    </a>
                     <p className={classes[props.currentClass]}>{props.hideText}</p>
                 </div>
             </div>

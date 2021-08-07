@@ -9,7 +9,9 @@ const DayDescription = (props) => {
         <div className={classes.description}>
             <div className={classes.eachDay}>
                 <p>ДЕНЬ {props.day}</p>
-                <img src={props.backImages[props.day]} alt=''></img>
+                <a href={props.backImages[props.day]} target="_blank" rel="noreferrer">
+                    <img src={props.backImages[props.day]} alt=''></img>
+                </a>
                 <div className={classes.hoverLayer}></div>
             </div>
             <div className={classes.shortDesc}>

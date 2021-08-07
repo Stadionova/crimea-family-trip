@@ -33,22 +33,34 @@ const SwiperSlider = (props) => {
                 className={classes.mySwiper}
             >
                 <SwiperSlide className={classes.slider}>
-                    <img src={props && props.sliderPhotos && props.sliderPhotos[0]} alt=''></img>
+                    <a href={props && props.sliderPhotos && props.sliderPhotos[0]} target="_blank" rel="noreferrer">
+                        <img src={props && props.sliderPhotos && props.sliderPhotos[0]} alt=''></img>
+                    </a>
                 </SwiperSlide>
                 <SwiperSlide className={classes.slider}>
-                    <img src={props && props.sliderPhotos && props.sliderPhotos[1]} alt=''></img>
+                    <a href={props && props.sliderPhotos && props.sliderPhotos[1]} target="_blank" rel="noreferrer">
+                        <img src={props && props.sliderPhotos && props.sliderPhotos[1]} alt=''></img>
+                    </a>
                 </SwiperSlide>
                 <SwiperSlide className={classes.slider}>
-                    <img src={props && props.sliderPhotos && props.sliderPhotos[2]} alt=''></img>
+                    <a href={props && props.sliderPhotos && props.sliderPhotos[2]} target="_blank" rel="noreferrer">
+                        <img src={props && props.sliderPhotos && props.sliderPhotos[2]} alt=''></img>
+                    </a>
                 </SwiperSlide>
                 <SwiperSlide className={classes.slider}>
-                    <img src={props && props.sliderPhotos && props.sliderPhotos[3]} alt=''></img>
+                    <a href={props && props.sliderPhotos && props.sliderPhotos[3]} target="_blank" rel="noreferrer">
+                        <img src={props && props.sliderPhotos && props.sliderPhotos[3]} alt=''></img>
+                    </a>
                 </SwiperSlide>
                 <SwiperSlide className={classes.slider}>
-                    <img src={props && props.sliderPhotos && props.sliderPhotos[4]} alt=''></img>
+                    <a href={props && props.sliderPhotos && props.sliderPhotos[4]} target="_blank" rel="noreferrer">
+                        <img src={props && props.sliderPhotos && props.sliderPhotos[4]} alt=''></img>
+                    </a>
                 </SwiperSlide>
                 <SwiperSlide className={classes.slider}>
-                    <img src={props && props.sliderPhotos && props.sliderPhotos[5]} alt=''></img>
+                    <a href={props && props.sliderPhotos && props.sliderPhotos[5]} target="_blank" rel="noreferrer">
+                        <img src={props && props.sliderPhotos && props.sliderPhotos[5]} alt=''></img>
+                    </a>
                 </SwiperSlide>
             </Swiper>
         </>

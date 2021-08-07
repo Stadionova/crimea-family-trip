@@ -31,31 +31,43 @@ const SwiperTextCities = (props) => {
                 className={classes.mySwiper}
             >
                 <SwiperSlide className={classes.slider}>
-                    <img src={data[0]} alt=''></img>
-                    <p>Ночью было тепло, главное спать в берушах и успех обеспечен. 
-                       Проснулись в 5:31, готовим завтрак и выдвигаемся на экскурсию по Бахчисараю. 
-                       Пошли мы в мужской монастырь, рано утром - тихо, никого нет, красота. 
-                       Дальше по тропе дошли до каменных пещер, 
-                       где раньше жили люди, интересно, но дороговато, 200р за вход.</p>
+                    <a href={data[0]} target="_blank" rel="noreferrer">
+                        <img src={data[0]} alt=''></img>
+                    </a>
+                    <p>Ночью было тепло, главное спать в берушах и успех обеспечен.
+                        Проснулись в 5:31, готовим завтрак и выдвигаемся на экскурсию по Бахчисараю.
+                        Пошли мы в мужской монастырь, рано утром - тихо, никого нет, красота.
+                        Дальше по тропе дошли до каменных пещер,
+                        где раньше жили люди, интересно, но дороговато, 200р за вход.</p>
                 </SwiperSlide>
                 <SwiperSlide className={classes.slider}>
-                    <img src={data[1]} alt=''></img>
+                    <a href={data[1]} target="_blank" rel="noreferrer">
+                        <img src={data[1]} alt=''></img>
+                    </a>
                     <p>HELLO_2</p>
                 </SwiperSlide>
                 <SwiperSlide className={classes.slider}>
-                    <img src={data[2]} alt=''></img>
+                    <a href={data[2]} target="_blank" rel="noreferrer">
+                        <img src={data[2]} alt=''></img>
+                    </a>
                     <p>HELLO_3</p>
                 </SwiperSlide>
                 <SwiperSlide className={classes.slider}>
-                    <img src={data[3]} alt=''></img>
+                    <a href={data[3]} target="_blank" rel="noreferrer">
+                        <img src={data[3]} alt=''></img>
+                    </a>
                     <p>HELLO_4</p>
                 </SwiperSlide>
                 <SwiperSlide className={classes.slider}>
-                    <img src={data[4]} alt=''></img>
+                    <a href={data[4]} target="_blank" rel="noreferrer">
+                        <img src={data[4]} alt=''></img>
+                    </a>
                     <p>HELLO_5</p>
                 </SwiperSlide>
                 <SwiperSlide className={classes.slider}>
-                    <img src={data[5]} alt=''></img>
+                    <a href={data[5]} target="_blank" rel="noreferrer">
+                        <img src={data[5]} alt=''></img>
+                    </a>
                     <p>HELLO_6</p>
                 </SwiperSlide>
             </Swiper>

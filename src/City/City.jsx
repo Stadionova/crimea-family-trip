@@ -24,7 +24,9 @@ const City = (props) => {
         <div className={classes.description}>
             <Navigation changeColor='black' />
             <div className={classes.eachDay}>
-                <img src={bigPhoto[cityNum]} alt=''></img>
+                <a href={bigPhoto[cityNum]} target="_blank" rel="noreferrer">
+                    <img src={bigPhoto[cityNum]} alt=''></img>
+                </a>
             </div>
             <p className={classes.summaryData}>
                 {citiesSummaryData[cityNum][0]}
