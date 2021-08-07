@@ -6,9 +6,9 @@ import EachCityInDetailsContainer from '../EachCityInDetails/EachCityInDetailsCo
 import citiesSummaryData from '../citiesSummaryData';
 import citiesPlaceInDetail from '../citiesPlaceInDetail';
 
-import city1 from '../city1.JPG';
-import city2 from '../city2.JPG';
-import city3 from '../city3.JPG';
+import city1 from './city1.JPG';
+import city2 from './city2.JPG';
+import city3 from './city3.JPG';
 
 const bigPhoto = {
     1: city1,
