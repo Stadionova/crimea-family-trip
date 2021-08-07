@@ -16,21 +16,21 @@ const Navigation = (props) => {
                 <NavLink to='/equipment'>Снаряжение</NavLink>
             </div>
             <div className={classes.contacts}>
-                <a href="https://instagram.com/stadionova/">
+                <a href="https://instagram.com/stadionova/" target="_blank" rel="noreferrer">
                     <img
                         className={classes.inst}
                         alt="Instagram"
                         src={inst}>
                     </img>
                 </a>
-                <a href="https://vk.com/tr.julia">
+                <a href="https://vk.com/tr.julia" target="_blank" rel="noreferrer">
                     <img
                         className={classes.vk}
                         alt="Vkontakte"
                         src={vk}>
                     </img>
                 </a>
-                <a href="https://www.youtube.com/channel/UCmEcqozBEKyK6389lOA0kdg">
+                <a href="https://www.youtube.com/channel/UCmEcqozBEKyK6389lOA0kdg" target="_blank" rel="noreferrer">
                     <img
                         className={classes.youtube}
                         alt="youtube"
