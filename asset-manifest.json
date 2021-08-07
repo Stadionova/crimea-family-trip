@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/crimea-family-trip/static/css/main.00364959.chunk.css",
-    "main.js": "/crimea-family-trip/static/js/main.f81613ff.chunk.js",
-    "main.js.map": "/crimea-family-trip/static/js/main.f81613ff.chunk.js.map",
+    "main.css": "/crimea-family-trip/static/css/main.f94e3984.chunk.css",
+    "main.js": "/crimea-family-trip/static/js/main.9cf56f99.chunk.js",
+    "main.js.map": "/crimea-family-trip/static/js/main.9cf56f99.chunk.js.map",
     "runtime-main.js": "/crimea-family-trip/static/js/runtime-main.da2564a6.js",
     "runtime-main.js.map": "/crimea-family-trip/static/js/runtime-main.da2564a6.js.map",
     "static/css/2.0540911f.chunk.css": "/crimea-family-trip/static/css/2.0540911f.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.e61bdef3.chunk.js.map": "/crimea-family-trip/static/js/3.e61bdef3.chunk.js.map",
     "index.html": "/crimea-family-trip/index.html",
     "static/css/2.0540911f.chunk.css.map": "/crimea-family-trip/static/css/2.0540911f.chunk.css.map",
-    "static/css/main.00364959.chunk.css.map": "/crimea-family-trip/static/css/main.00364959.chunk.css.map",
+    "static/css/main.f94e3984.chunk.css.map": "/crimea-family-trip/static/css/main.f94e3984.chunk.css.map",
     "static/js/2.f772bced.chunk.js.LICENSE.txt": "/crimea-family-trip/static/js/2.f772bced.chunk.js.LICENSE.txt",
     "static/media/city1.d19ff7f0.JPG": "/crimea-family-trip/static/media/city1.d19ff7f0.JPG",
     "static/media/city1_1.00cded2f.JPG": "/crimea-family-trip/static/media/city1_1.00cded2f.JPG",
@@ -222,7 +222,7 @@
     "static/js/runtime-main.da2564a6.js",
     "static/css/2.0540911f.chunk.css",
     "static/js/2.f772bced.chunk.js",
-    "static/css/main.00364959.chunk.css",
-    "static/js/main.f81613ff.chunk.js"
+    "static/css/main.f94e3984.chunk.css",
+    "static/js/main.9cf56f99.chunk.js"
   ]
 }
