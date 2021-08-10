@@ -9,14 +9,8 @@
     line-height: 1.7;
 }
 
-/* .video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-} */
-
 .header {
+    backdrop-filter: blur(0.9px) brightness(99%);
     min-height: 100vh;
     flex-direction: column;
     align-items: center;

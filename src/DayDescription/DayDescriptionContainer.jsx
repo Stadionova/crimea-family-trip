@@ -238,7 +238,8 @@ class DayDescriptionContainer extends React.Component {
         if (data.day) {
             day = data.day;
         } else {
-            day = data && data.pathname && data.pathname.slice(-1);
+            const dayNum = data && data.pathname && data.pathname.split('/');
+            day = dayNum && dayNum[dayNum.length - 1];
         }
         const dataImages = miniPhotos[day];
         const dataImagesSlider = bigPhotosSlider[day];
