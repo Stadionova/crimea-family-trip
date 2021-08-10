@@ -6,7 +6,7 @@
 
 .description .cities {
     width: 100%;
-    height: 650px !important;
+    height: 650px;
     border: 1px solid black;
     background-color: burlywood;
     position: relative;
@@ -29,7 +29,7 @@
     cursor: pointer;
 }
 
-.cities img{
+.cities img {
     opacity: 0.8;
 }
 
@@ -56,11 +56,11 @@
 .city {
     display: none;
     position: absolute;
-    color: white !important;
-    font-size: 14pt !important;
+    color: white;
+    font-size: 14pt;
     font-weight: 600;
-    width: 600px !important;
-    top: 570px !important;
+    width: 600px;
+    top: 570px;
     left: 0;
     text-align: left;
     padding-left: 30px;
@@ -70,16 +70,16 @@
     display: none;
     position: absolute;
     font-weight: 400;
-    width: 499px !important;
+    width: 499px;
     top: 230px;
     left: 30%;
     z-index: 1;
     margin: 0 auto;
     text-align: justify;
     line-height: 1.3;
-    font-size: 17pt !important;
+    font-size: 17pt;
     background-color: antiquewhite;
-    color: black !important;
+    color: black;
     padding: 40px;
     opacity: 0.8;
     border-radius: 5%;

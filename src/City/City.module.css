@@ -58,10 +58,10 @@
 
 .detailedCityPlace {
     position: absolute;
-    color: white !important;
-    font-size: 20pt !important;
+    color: white;
+    font-size: 20pt;
     font-weight: 400;
-    width: 600px !important;
+    width: 600px;
     top: 240px;
     left: 0;
     display: block;
@@ -237,11 +237,11 @@ h5 {
 }
 
 .footer {
-    display: block !important;
-    width: 100% !important;
-    font-size: 12pt !important;
-    text-align: center !important;
-    margin-bottom: 0 !important;
+    display: block;
+    width: 100%;
+    font-size: 12pt;
+    text-align: center;
+    margin-bottom: 0;
     padding-bottom: 20px;
 }
 

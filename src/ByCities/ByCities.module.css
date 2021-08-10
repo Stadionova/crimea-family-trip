@@ -8,7 +8,7 @@
 
 .description .cities {
     width: 100%;
-    height: 650px !important;
+    height: 650px;
     border: 1px solid black;
     background-color: burlywood;
     margin-right: 20px;
@@ -52,11 +52,11 @@
 .city {
     display: none;
     position: absolute;
-    color: white !important;
-    font-size: 12pt !important;
+    color: white;
+    font-size: 12pt;
     font-weight: 400;
-    width: 600px !important;
-    top: 570px !important;
+    width: 600px;
+    top: 570px;
     left: 0;
     text-align: left;
 }
