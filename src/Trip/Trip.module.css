@@ -48,8 +48,8 @@
 .footer {
     display: block;
     width: 100%;
-    font-size: 12pt;
-    text-align: center;
-    padding-top: 10px;
-    margin-bottom: 0;
+    font-size: 12pt !important;
+    text-align: center !important;
+    padding-top: 10px !important;
+    margin-bottom: 0 !important;
 }
