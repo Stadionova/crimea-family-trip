@@ -70,4 +70,19 @@
     margin: 0 auto;
     width: 300px;
     padding-top: 20px;
+    font-size: 12pt;
+}
+
+@media screen and (max-width: 1010px) {
+    .citiesWrapper {
+        display: block;
+        width: 100%;
+        padding-top: 60px;
+    }
+    .footer {
+        padding-top: 10px;
+        font-size: 10pt;
+        text-align: center;
+        padding-bottom: 10px;
+    }
 }

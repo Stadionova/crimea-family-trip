@@ -45,3 +45,39 @@ h1 {
     margin: 0;
     text-shadow: 0px 4px 3px rgb(0 0 0 / 40%), 0px 8px 13px rgb(0 0 0 / 10%), 0px 18px 23px rgb(0 0 0 / 10%);
 }
+
+html {
+    font-size: 1px;
+}
+
+body {
+    font-size: 16rem;
+}
+
+p {
+    font-size: 13rem;
+}
+
+.title p {
+    font-size: 12pt;
+    margin-bottom: -20px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    html a {
+        font-size: 9px;
+    }
+    .title {
+        margin-top: 200px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .title span {
+        font-size: 10pt;
+    }
+    .title p {
+        font-size: 14pt;
+    }
+}

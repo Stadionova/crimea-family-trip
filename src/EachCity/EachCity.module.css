@@ -93,3 +93,12 @@
     display: block;
     z-index: 1;
 }
+
+@media screen and (max-width: 1010px) {
+    .cities {
+        height: 260px !important;
+    }
+    .cities img {
+        height: 100% !important;
+    }
+}

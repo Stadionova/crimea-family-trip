@@ -97,3 +97,17 @@
     left: 0;
     text-align: left;
 }
+
+@media screen and (max-width: 1010px) {
+    .eachDay img {
+        height: 100px;
+    }
+    .eachDay {
+        height: 100px;
+    }
+    .backImage {
+        font-size: 15pt;
+        padding-left: 35px;
+        padding-top: 30px;
+    }
+}

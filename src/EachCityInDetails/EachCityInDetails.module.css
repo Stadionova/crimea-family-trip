@@ -94,3 +94,15 @@
     display: block;
     z-index: 1;
 }
+
+@media screen and (max-width: 1010px) {
+    .cities {
+        height: 50% !important;
+    }
+    .description {
+        height: 200px !important;
+    }
+    .cityName {
+        font-size: 15pt !important;
+    }
+}

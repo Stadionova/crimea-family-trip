@@ -11,7 +11,7 @@ const CityDescComponent = (props) => {
             <div className={classes.photoGallery}>
                 {props.lastCity !== true
                     ? <ul>
-                        <div>
+                        <div className={classes.photoGalleryFirst}>
                             <li><a href={images[0]} target="_blank" rel="noreferrer"><img src={images[0]} alt=''></img></a></li>
                             <li><a href={images[1]} target="_blank" rel="noreferrer"><img src={images[1]} alt=''></img></a></li>
                             <li><a href={images[2]} target="_blank" rel="noreferrer"><img src={images[2]} alt=''></img></a></li>
@@ -24,7 +24,7 @@ const CityDescComponent = (props) => {
                         </div>
                     </ul>
                     : <ul>
-                        <div>
+                        <div className={classes.photoGallerySecond}>
                             <li><a href={images[0]} target="_blank" rel="noreferrer"><img src={images[0]} alt=''></img></a></li>
                             <li><a href={images[1]} target="_blank" rel="noreferrer"><img src={images[1]} alt=''></img></a></li>
                             <li><a href={images[2]} target="_blank" rel="noreferrer"><img src={images[2]} alt=''></img></a></li>

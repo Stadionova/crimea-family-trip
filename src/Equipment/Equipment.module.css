@@ -14,3 +14,10 @@
 .text p {
     margin: 0;
 }
+
+@media screen and (max-width: 600px) {
+    .text {
+        font-size: 11pt;
+        padding-top: 65px;
+    }
+}

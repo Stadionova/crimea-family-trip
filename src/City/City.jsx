@@ -28,7 +28,7 @@ const City = (props) => {
                     <img src={bigPhoto[cityNum]} alt=''></img>
                 </a>
             </div>
-            <p className={classes.summaryData}>
+            <p className={classes.summaryData1}>
                 {citiesSummaryData[cityNum][0]}
             </p>
             {cityNum === 3
@@ -47,7 +47,7 @@ const City = (props) => {
                         hideText={citiesPlaceInDetail[cityNum][0]}
                         hideTextClass={'detailedCityPlace'}
                     />
-                    <p className={classes.summaryData}>
+                    <p className={classes.summaryData2}>
                         {citiesSummaryData[cityNum][1]}
                     </p>
                     <EachCityInDetailsContainer
@@ -57,7 +57,7 @@ const City = (props) => {
                         hideText={citiesPlaceInDetail[cityNum][1]}
                         hideTextClass={'detailedCityPlace'}
                     />
-                    <p className={classes.summaryData}>
+                    <p className={classes.summaryData3}>
                         {citiesSummaryData[cityNum][2]}
                     </p>
                     <EachCityInDetailsContainer

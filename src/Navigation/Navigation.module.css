@@ -18,7 +18,7 @@
 
 .headerLinks a {
     padding-right: 20px;
-    font-size: calc(10px + 2vmin);
+    /* font-size: calc(2px + 2vmin) !important; */
     color: white;
     cursor: pointer;
     text-decoration: none;
@@ -70,4 +70,34 @@
 
 [class*="active"] {
     text-decoration: overline !important;
+}
+
+html {
+    font-size: 1.5px;
+}
+
+body {
+    font-size: 16rem;
+}
+
+p {
+    font-size: 13rem;
+}
+
+@media screen and (max-width: 1010px) {
+    .contacts {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 0.6px;
+    }
+    .headerLinks a {
+        padding-right: 8px;
+    }
+    [data*="black"] {
+        height: 65px;
+    }
 }

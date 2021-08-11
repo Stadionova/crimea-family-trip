@@ -257,36 +257,38 @@ class DayDescriptionContainer extends React.Component {
                     day={day}
                     video={video}
                 />
-                <NavLink
-                    to={{
-                        pathname: `/dayDesc/${+day - 1}`,
-                        desc: data.desc,
-                        day: +day - 1,
-                        addHideText: data.addHideText
-                    }}>
-                    {
-                        +day >= 2
-                            ? <button
-                                className={classes.buttonPrev}
-                                onClick={() => this.onclick()}>Предыдущий день</button>
-                            : ''
-                    }
-                </NavLink>
-                <NavLink
-                    to={{
-                        pathname: `/dayDesc/${+day + 1}`,
-                        desc: data.desc,
-                        day: +day + 1,
-                        addHideText: data.addHideText
-                    }}>
-                    {
-                        +day <= 10
-                            ? <button
-                                className={classes.buttonNext}
-                                onClick={() => this.onclick()}>Следующий день</button>
-                            : ''
-                    }
-                </NavLink>
+                <div className={classes.buttons}>
+                    <NavLink
+                        to={{
+                            pathname: `/dayDesc/${+day - 1}`,
+                            desc: data.desc,
+                            day: +day - 1,
+                            addHideText: data.addHideText
+                        }}>
+                        {
+                            +day >= 2
+                                ? <button
+                                    className={classes.buttonPrev}
+                                    onClick={() => this.onclick()}>Предыдущий день</button>
+                                : ''
+                        }
+                    </NavLink>
+                    <NavLink
+                        to={{
+                            pathname: `/dayDesc/${+day + 1}`,
+                            desc: data.desc,
+                            day: +day + 1,
+                            addHideText: data.addHideText
+                        }}>
+                        {
+                            +day <= 10
+                                ? <button
+                                    className={classes.buttonNext}
+                                    onClick={() => this.onclick()}>Следующий день</button>
+                                : ''
+                        }
+                    </NavLink>
+                </div>
             </div>
         );
     }

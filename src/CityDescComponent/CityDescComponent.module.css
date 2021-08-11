@@ -12,7 +12,6 @@
     text-align: justify;
     font-size: 15pt;
     font-weight: 400;
-    /* padding: 25px; */
     padding-bottom: 25px;
     width: 1200px;
     margin: 0 auto;
@@ -27,5 +26,44 @@
 .footer {
     margin: 0 auto;
     width: 300px;
+    /* padding-top: 10px; */
     padding-bottom: 20px;
+    font-size: 12pt;
+}
+
+@media screen and (max-width: 1010px) {
+    .fullDescFirst,
+    .fullDescSecond {
+        font-size: 12pt;
+        width: 88%;
+        padding-top: 60px;
+    }
+    li img {
+        width: 77% !important;
+        height: 100% !important;
+    }
+    li {
+        margin-right: 0 !important;
+        height: 100px !important;
+    }
+    .photoGalleryFirst,
+    .photoGallerySecond {
+        height: 100px;
+    }
+    .photoGallery {
+        margin: 0 auto;
+        width: 85.3%;
+    }
+    .fullDescSecond {
+        font-size: 12pt;
+        width: 92%;
+        padding-top: 20px;
+        margin: 0;
+    }
+    .footer {
+        text-align: center;
+    }
+    .photoGallerySecond {
+        margin-bottom: 10px;
+    }
 }
