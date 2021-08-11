@@ -103,6 +103,7 @@
         height: 200px !important;
     }
     .cityName {
-        font-size: 15pt !important;
+        font-size: 13pt !important;
+        padding-left: 15px !important;
     }
 }

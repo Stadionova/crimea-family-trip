@@ -31,7 +31,7 @@
     font-size: 12pt;
 }
 
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 600px) {
     .fullDescFirst,
     .fullDescSecond {
         font-size: 12pt;
@@ -49,6 +49,7 @@
     .photoGalleryFirst,
     .photoGallerySecond {
         height: 100px;
+        width: 92%;
     }
     .photoGallery {
         margin: 0 auto;
@@ -65,5 +66,9 @@
     }
     .photoGallerySecond {
         margin-bottom: 10px;
+    }
+    .photoGalleryFirst li,
+    .photoGallerySecond li {
+        padding-right: 5px;
     }
 }
