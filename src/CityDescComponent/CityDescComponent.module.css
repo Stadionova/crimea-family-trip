@@ -35,7 +35,7 @@
     .fullDescFirst,
     .fullDescSecond {
         font-size: 12pt;
-        width: 88%;
+        width: 92%;
         padding-top: 60px;
     }
     li img {
@@ -70,5 +70,8 @@
     .photoGalleryFirst li,
     .photoGallerySecond li {
         padding-right: 5px;
+    }
+    .photoGalleryFirst {
+        padding-bottom: 5px;
     }
 }
