@@ -32,6 +32,7 @@
     top: 160px;
     left: 0;
     padding: 160px 25px 0 25px !important;
+    text-align: left;
 }
 
 .eachDay:hover .addText {
