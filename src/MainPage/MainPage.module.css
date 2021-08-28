@@ -54,10 +54,6 @@ body {
     font-size: 16rem;
 }
 
-p {
-    font-size: 13rem;
-}
-
 .title p {
     font-size: 12pt;
     margin-bottom: -20px;
@@ -79,5 +75,8 @@ p {
     }
     .title p {
         font-size: 14pt;
+    }
+    p {
+        font-size: 25rem;
     }
 }

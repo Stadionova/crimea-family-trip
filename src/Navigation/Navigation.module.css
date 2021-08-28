@@ -80,10 +80,6 @@ body {
     font-size: 16rem;
 }
 
-p {
-    font-size: 13rem;
-}
-
 @media screen and (max-width: 1010px) {
     .contacts {
         display: none;

@@ -258,8 +258,8 @@ iframe {
     .eachDay p {
         top: 180px;
     }
-    h5 {
-        font-size: 10pt !important;
+    .shortDesc h5 {
+        font-size: 13pt;
         padding-bottom: 0px !important;
     }
     .text1 {
