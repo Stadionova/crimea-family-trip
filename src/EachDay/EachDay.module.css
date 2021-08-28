@@ -104,10 +104,14 @@
     }
     .eachDay {
         height: 100px;
+        margin-bottom: 5px;
     }
     .backImage {
         font-size: 15pt;
         padding-left: 35px;
         padding-top: 30px;
+    }
+    .addText {
+        display: none;
     }
 }
