@@ -96,14 +96,14 @@
 }
 
 @media screen and (max-width: 1010px) {
-    .cities {
-        height: 50% !important;
+    .description .cities {
+        height: 290px;
     }
     .description {
-        height: 200px !important;
+        height: 200px;
     }
     .cityName {
-        font-size: 13pt !important;
-        padding-left: 15px !important;
+        font-size: 13pt;
+        padding-left: 15px;
     }
 }
