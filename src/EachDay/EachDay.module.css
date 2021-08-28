@@ -1,6 +1,7 @@
 .eachDay {
     height: 400px;
     margin-right: 25px;
+    margin-bottom: 5px;
     text-decoration: none;
     position: relative;
     width: 100%;
@@ -101,10 +102,10 @@
 
 @media screen and (max-width: 1010px) {
     .eachDay img {
-        height: 100px;
+        height: 200px;
     }
     .eachDay {
-        height: 100px;
+        height: 200px;
         margin-bottom: 5px;
     }
     .backImage {
