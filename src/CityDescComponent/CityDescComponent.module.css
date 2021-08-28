@@ -30,25 +30,35 @@
     font-size: 12pt;
 }
 
+.photoGalleryFirst,
+.photoGallerySecond {
+    display: flex;
+}
+
 @media screen and (max-width: 600px) {
+    .fullDescFirst {
+        padding-bottom: 10px;
+    }
     .fullDescFirst,
     .fullDescSecond {
         font-size: 12pt;
-        width: 92%;
+        width: 85%;
         padding-top: 60px;
     }
-    li img {
-        width: 100%;
+    .photoGalleryFirst img,
+    .photoGallerySecond img {
+        width: 73%;
         height: 100%;
     }
     li {
         margin-right: 0;
         height: 100px;
+        margin-bottom: 10px;
     }
     .photoGalleryFirst,
     .photoGallerySecond {
-        height: 100px;
         width: 92%;
+        display: block;
     }
     .photoGallery {
         margin: 0 auto;
@@ -57,11 +67,12 @@
     .fullDescSecond {
         font-size: 12pt;
         width: 92%;
-        padding-top: 20px;
+        padding-top: 0px;
         margin: 0;
     }
     .footer {
         text-align: center;
+        font-size: 10pt;
     }
     .photoGallerySecond {
         margin-bottom: 10px;
