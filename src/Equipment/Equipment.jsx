@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Equipment.module.css';
+import classes from './Equipment.module.scss';
 import Navigation from '../Navigation/Navigation';
 
 const Equipment = () => {

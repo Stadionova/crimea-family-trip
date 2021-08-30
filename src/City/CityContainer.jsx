@@ -2,7 +2,7 @@ import React from 'react';
 import citiesSummaryData from '../citiesSummaryData';
 import citiesPlaceInDetail from '../citiesPlaceInDetail';
 import City from './City';
-import classes from './City.module.css';
+import classes from './City.module.scss';
 
 import city1_1 from './city1/city1_1.JPG';
 import city1_2 from './city1/city1_2.JPG';

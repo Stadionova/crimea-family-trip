@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './City.module.css';
+import classes from './City.module.scss';
 import Navigation from '../Navigation/Navigation';
 import cityPlacesNames from '../cityPlacesNames';
 import EachCityInDetailsContainer from '../EachCityInDetails/EachCityInDetailsContainer';

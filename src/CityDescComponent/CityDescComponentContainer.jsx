@@ -1,6 +1,6 @@
 import React from 'react';
 import CityDescComponent from './CityDescComponent';
-import classes from './CityDescComponent.module.css';
+import classes from './CityDescComponent.module.scss';
 
 import city1Place1Img1 from './photos/bahchisarai/bahchikamp/img1.jpg';
 import city1Place1Img2 from './photos/bahchisarai/bahchikamp/img2.jpg';

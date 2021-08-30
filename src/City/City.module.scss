@@ -24,13 +24,6 @@
     padding: 10px 25px 0 25px;
 }
 
-.fullDesc {
-    padding: 0 25px 0 25px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    width: 80%;
-}
-
 .fullDescPar {
     padding: 0 25px 0 25px;
     margin-top: 40px;
@@ -43,17 +36,23 @@
     opacity: 0.9;
     border-color: black;
     margin-bottom: 30px;
-}
-
-.eachDay a {
-    color: white;
-}
-
-.eachDay img {
-    position: relative;
-    width: 100%;
-    object-fit: cover;
-    opacity: 1;
+    a {
+        color: white;
+    }
+    img {
+        position: relative;
+        width: 100%;
+        object-fit: cover;
+        opacity: 1;
+    }
+    p {
+        position: relative;
+        top: 550px;
+        z-index: 111111;
+        color: white;
+        font-size: 40pt;
+        margin: 0;
+    }
 }
 
 .detailedCityPlace {
@@ -87,20 +86,18 @@
     padding-left: 20px;
     padding-top: 10px;
     z-index: 1;
-}
-
-.backImage a {
-    font-size: 25pt;
-    padding: 25px;
+    a {
+        font-size: 25pt;
+        padding: 25px;
+    }
 }
 
 .photoGallery {
     width: 100%;
     margin: 0 auto;
-}
-
-.photoGallery p {
-    font-size: 40pt;
+    p {
+        font-size: 40pt;
+    }
 }
 
 ul {
@@ -109,18 +106,12 @@ ul {
 }
 
 li:nth-child(1),
-li:nth-child(2) {
-    list-style-type: none;
-    width: 445px;
-    height: 325px;
-    margin-right: 20px;
-}
-
+li:nth-child(2),
 li:nth-child(3) {
     list-style-type: none;
     width: 445px;
     height: 325px;
-    margin-bottom: 20px;
+    margin-right: 20px;
 }
 
 li img {
@@ -147,23 +138,16 @@ h5 {
     padding-top: 20px;
 }
 
-.eachDay p {
-    position: relative;
-    top: 550px;
-    z-index: 111111;
-    color: white;
-    font-size: 40pt;
-    margin: 0;
-}
-
-.fullDesc p {
-    margin: 0 auto;
-    width: 95%;
-    padding-top: 10px;
-}
-
 .fullDesc {
     margin-bottom: 20px;
+    padding: 0 25px 0 25px;
+    margin-top: 40px;
+    width: 80%;
+    p {
+        margin: 0 auto;
+        width: 95%;
+        padding-top: 10px;
+    }
 }
 
 .swiper-container {
@@ -219,16 +203,14 @@ h5 {
     margin: 0 auto;
     margin-top: 20px;
     height: 450px;
-}
-
-.cityDayDesc img {
-    width: 550px;
-    height: 450px;
-}
-
-.cityDayDesc p {
-    text-align: justify;
-    padding: 30px;
+    img {
+        width: 550px;
+        height: 450px;
+    }
+    p {
+        text-align: justify;
+        padding: 30px;
+    }
 }
 
 .footer {
@@ -251,10 +233,9 @@ h5 {
 
 .swiper-slide-active {
     margin-left: 50px;
-}
-
-.swiper-slide-active p {
-    margin-right: 100px;
+    p {
+        margin-right: 100px;
+    }
 }
 
 @media screen and (max-width: 1010px) {

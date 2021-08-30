@@ -45,11 +45,6 @@
         width: 85%;
         padding-top: 60px;
     }
-    .photoGalleryFirst img,
-    .photoGallerySecond img {
-        width: 73%;
-        height: 100%;
-    }
     li {
         margin-right: 0;
         height: 100px;
@@ -59,6 +54,13 @@
     .photoGallerySecond {
         width: 92%;
         display: block;
+        img {
+            width: 73%;
+            height: 100%;
+        }
+        li {
+            padding-right: 5px;
+        }
     }
     .photoGallery {
         margin: 0 auto;
@@ -76,10 +78,6 @@
     }
     .photoGallerySecond {
         margin-bottom: 10px;
-    }
-    .photoGalleryFirst li,
-    .photoGallerySecond li {
-        padding-right: 5px;
     }
     .photoGalleryFirst {
         padding-bottom: 5px;

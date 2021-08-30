@@ -1,5 +1,5 @@
 import MainPage from './MainPage/MainPage';
-import classes from './App.module.css';
+import classes from './App.module.scss';
 import Trip from './Trip/Trip';
 import { Route } from "react-router-dom";
 import Equipment from './Equipment/Equipment';

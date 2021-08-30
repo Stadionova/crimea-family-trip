@@ -1,7 +1,7 @@
 import React from 'react';
 import EachCityContainer from '../EachCity/EachCityContainer';
 import Navigation from '../Navigation/Navigation';
-import classes from './ByCities.module.css';
+import classes from './ByCities.module.scss';
 
 import city1 from './city1.JPG';
 import city2 from './city2.JPG';

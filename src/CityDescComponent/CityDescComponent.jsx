@@ -1,6 +1,6 @@
 import React from 'react';
 import Navigation from '../Navigation/Navigation';
-import classes from './CityDescComponent.module.css';
+import classes from './CityDescComponent.module.scss';
 
 const CityDescComponent = (props) => {
     const images = props.backImages;

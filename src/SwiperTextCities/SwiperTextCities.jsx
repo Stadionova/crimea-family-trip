@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/swiper.min.css";
+import "swiper/swiper.min.scss";
 import "swiper/components/pagination/pagination.min.css"
 import "swiper/components/navigation/navigation.min.css"
 import classes from './SwiperTextCities.module.css';

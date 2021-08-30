@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Trip.module.css';
+import classes from './Trip.module.scss';
 import Navigation from '../Navigation/Navigation';
 import EachDayContainer from '../EachDay/EachDayContainer';
 import dayDescriptions from '../dayDescriptions';
