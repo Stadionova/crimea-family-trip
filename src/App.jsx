@@ -1,7 +1,7 @@
 import MainPage from './MainPage/MainPage';
 import classes from './App.module.scss';
 import Trip from './Trip/Trip';
-import { Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import Equipment from './Equipment/Equipment';
 import EachDayContainer from './EachDay/EachDayContainer';
 import CityDescComponentContainer from './CityDescComponent/CityDescComponentContainer';
@@ -26,15 +26,16 @@ const App = () => {
       {/* Route компонента следит за адресной строкой браузера
       и как только она увидит, что её path совпадает с адрес строкой,
       она автоматич запуск рендер и отрисовыв то, что должна */}
-      {/* <MainPage /> */}
-      <Route path='/main' component={MainPage} />
-      <Route path='/trip' component={Trip} />
-      <Route path='/equipment' component={Equipment} />
-      <Route path='/day' component={EachDayContainer} />
-      <Route path='/aboutcity' component={CityDescComponentContainer} />
-      <Route path='/dayDesc' component={DayDescriptionContainer} />
-      <Route path='/cities' component={ByCities} />
-      <Route path='/city' component={CityContainer} />
+      <Switch>
+        <Route path='/trip' component={Trip} />
+        <Route path='/equipment' component={Equipment} />
+        <Route path='/day' component={EachDayContainer} />
+        <Route path='/aboutcity' component={CityDescComponentContainer} />
+        <Route path='/dayDesc' component={DayDescriptionContainer} />
+        <Route path='/cities' component={ByCities} />
+        <Route path='/city' component={CityContainer} />
+        <Route path='/' component={MainPage} />
+      </Switch>
     </div>
   );
 }

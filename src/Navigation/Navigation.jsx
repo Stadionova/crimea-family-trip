@@ -10,7 +10,7 @@ const Navigation = (props) => {
     return (
         <div className={classes.navigation} data={props.changeColor}>
             <div className={classes.headerLinks}>
-                <NavLink to='/main'>Главная страница</NavLink>
+                <NavLink exact to='/'>Главная страница</NavLink>
                 <NavLink to='/trip'>Путешествие</NavLink>
                 <NavLink to='/cities'>По городам</NavLink>
                 <NavLink to='/equipment'>Снаряжение</NavLink>
